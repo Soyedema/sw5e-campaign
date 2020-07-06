@@ -1,3 +1,4 @@
+function rollit(){
 // declare variables
 
 let allStats = [];
@@ -34,5 +35,18 @@ for (var i = 0; i < 6; i +=1){
 
 };
 
+allStats.sort((a,b) => a-b);
 
 console.log(allStats);
+
+function showStats(allStats){
+    var listHTML = '<ol>';
+    for (var i = 0; i < allStats.length; i += 1){
+        listHTML += '<li>' + allStats[i] + '</li>';
+    }
+    listHTML += '</ol>';
+    return listHTML;
+    print(listHTML);
+}
+
+}
