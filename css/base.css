@@ -44,12 +44,17 @@ body {
     margin-bottom: 2em;
 }
 
+.text {
+    background-color: rgba( 0, 0, 0, .4 );
+    color: #ffe81f;   
+}
+
 .settingHead {
     text-align: center;
 }
 
 .galaxy {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
     margin-bottom: 1.5em;
     margin-top: 1.5em;
@@ -57,10 +62,28 @@ body {
     height: auto;
 }
 
+/* styling for button */
+
+.buttonTime {
+    margin-left: 42%;
+    margin-right: 50%;
+}
+
+#statList {
+    padding-left: .25rem;
+    margin-left: 50%;
+    margin-right: 50%;
+    color: #ffe81f;
+}
+
+
+/* footer styles */
+
 .mainFooter {
     background-color: #ffe81f;
     margin-bottom: 0;
     height: 50px;
+    width: 100%;
 }
 
 .mainfooter p {

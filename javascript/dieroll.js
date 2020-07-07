@@ -4,6 +4,11 @@ function rollit(){
 let allStats = [];
 let sum = 0;
 var dieRoll = [];
+const list = document.getElementById('statList')
+
+// remove old list from page
+
+list.innerHTML = "";
 
 // start main loop
 
@@ -38,4 +43,13 @@ for (var i = 0; i < 6; i +=1){
 allStats.sort((a,b) => a-b);
 
 console.log(allStats);
+
+// print results to page
+
+for (var i = 0; i < allStats.length; i++) {
+    const li = document.createElement('li');
+    li.innerHTML = allStats[i];
+    list.append(li);
+}
+
 }
