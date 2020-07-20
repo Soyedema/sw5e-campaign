@@ -3,10 +3,6 @@ body {
     background-image: url(../img/background.jpeg);
 }
 
-body::first-child(arrt=div) {
-    background-color: rgba( 0, 0, 0, .4 );
-}
-
 /* nav bar */
 
 .header {
@@ -24,6 +20,7 @@ body::first-child(arrt=div) {
 .navbar-nav li{
     padding-left: .75rem;
     padding-right: .75rem;
+    font-size: 2em;
 }
 
 /* Page content Styling */
@@ -75,7 +72,7 @@ body::first-child(arrt=div) {
     height: auto;
 }
 
-/* styling for button */
+/* styling for JS function */
 
 .buttonTime {
     margin-left: 42%;
@@ -123,10 +120,5 @@ body::first-child(arrt=div) {
 @media (max-width: 400px){
     .main-link {
         font-size: 1.5em;
-    }
-
-    .navbar {
-        width: 100%;
-        margin-right: 0px;
     }
 }
