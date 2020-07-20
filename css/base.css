@@ -13,8 +13,7 @@ body::first-child(arrt=div) {
     background-color: black;
 }
 
-.header a {
-    color: #ffe81f;
+.main-link {
     font-size: 2em;
 }
 
@@ -121,3 +120,13 @@ body::first-child(arrt=div) {
 
 }
 
+@media (max-width: 400px){
+    .main-link {
+        font-size: 1.5em;
+    }
+
+    .navbar {
+        width: 100%;
+        margin-right: 0px;
+    }
+}
