@@ -56,11 +56,18 @@ body {
 }
 
 .text {
-    color: #ffe81f;   
+    color: #ffe81f;
+    font-size: 20px;  
+    line-height: 32px;
 }
 
 .settingHead {
     text-align: center;
+}
+
+.setting {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .galaxy {
@@ -84,6 +91,11 @@ body {
     margin-left: 50%;
     margin-right: 50%;
     color: #ffe81f;
+}
+
+#statList li {
+    font-weight: bold;
+    font-size: 1.25rem;
 }
 
 
@@ -120,5 +132,10 @@ body {
 @media (max-width: 400px){
     .main-link {
         font-size: 1.5em;
+    }
+
+    /* This solves a bug where on smaller screens all other elements did not take up the full lenth of the page because of the outsources boxes min width of 420px would scale all other elements down */
+    .outsources {
+        min-width: 0px;
     }
 }

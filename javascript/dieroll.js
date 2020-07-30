@@ -40,7 +40,7 @@ for (var i = 0; i < 6; i +=1){
 
 };
 
-allStats.sort((a,b) => a-b);
+allStats.sort((a,b) => b-a);
 
 console.log(allStats);
 
